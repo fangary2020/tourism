@@ -27,8 +27,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/images/   
+    - assets/images/temples/
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/logo/icon.png"
+  image_path: "assets/logo/tourism.png"

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tourism/constant/app_name.dart';
-import 'package:tourism/views/home/v_home.dart';
+import 'package:tourism/widget/favorite/w_body.favorite.dart';
+
 
 void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
@@ -11,7 +12,12 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: AppName.name,
       debugShowCheckedModeBanner: false,
-      home: ViewHome(),
+      home: WidgetBodyFavorite(),
+      //  routes: {
+      //  // '/': (context) =>  WidgetBodyFavorite(),
+       
+      //   WidgetMusem.routname:(context) => WidgetMusem(),
+      // },
     );
   }
 }

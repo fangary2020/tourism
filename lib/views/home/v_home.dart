@@ -1,5 +1,9 @@
 
 import 'package:flutter/material.dart';
+
+import 'package:tourism/widget/favorite/w_body.favorite.dart';
+import 'package:tourism/widget/uploadarticle/w_body_upload.dart';
+
 import 'package:tourism/widget/w_appbar.dart';
 import 'package:tourism/widget/w_bottomnavigat.dart';
 class ViewHome extends StatefulWidget {
@@ -17,10 +21,9 @@ class _ViewHomeState extends State<ViewHome> {
 
   /// list widget
   List<Widget> bodyPageView = const [
-    //WidgetBodyArticle(),
-    //WidgetBodyVideo(),
-    //WidgetBodyFavorite(),
-   // WidgetBodyUploadArticle(),
+   
+    WidgetBodyFavorite(),
+    WidgetBodyUploadArticle(),
   ];
   @override
   void initState() {
@@ -63,6 +66,7 @@ class _ViewHomeState extends State<ViewHome> {
         // part of page
         children: bodyPageView,
       ),
+     // backgroundColor: Colors.white,
     );
   }
 }

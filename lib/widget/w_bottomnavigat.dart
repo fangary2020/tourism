@@ -28,6 +28,10 @@ class WidgetBottomNavigation extends StatelessWidget {
           filledIcon: Icons.video_collection_rounded,
           outlinedIcon: Icons.video_collection_outlined,
         ),
+        // BarItem(
+        //   filledIcon: Icons.photo_album_rounded,
+        //   outlinedIcon: Icons.video_collection_outlined,
+        // ),
         // index number 2
         BarItem(
           filledIcon: Icons.favorite_rounded,
